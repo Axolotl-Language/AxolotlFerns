@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>axl.ferns</groupId>
+    <artifactId>ferns-core</artifactId>
+    <version>1.0.2.1</version>
+
+    <name>Axolotl-Ferns</name>
+    <description>Axolotl Ferns is a framework for developing game servers</description>
+    <url>https://github.com/Axolotl-Ferns/Axolotl-Ferns</url>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jctools</groupId>
+            <artifactId>jctools-core</artifactId>
+            <version>4.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>LATEST</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <developers>
+        <developer>
+            <name>Антон Кочергин</name>
+            <email>sora.vwv@gmail.com</email>
+            <url>https://github.com/SoraVWV</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>BSD 3-Clause License</name>
+            <url>https://gitlab.com/uPagge/upagge-utils/-/raw/master/LICENSE</url>
+        </license>
+    </licenses>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Axolotl-Ferns/Axolotl-Ferns</url>
+        </repository>
+    </distributionManagement>
+
+</project>
